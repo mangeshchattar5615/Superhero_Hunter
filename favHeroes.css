@@ -1,0 +1,61 @@
+/* Adding styles for background of favourite page */
+body{
+    background-color: lightgray;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Adding styles for favourite hero page container */
+#fav-hero-container{
+    border: 2px solid black;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+/* Adding styles for favourite hero image */
+.favImage{
+    width: 200px;
+    height: 200px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    width: 19rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+#fav-hero-container div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+/* Adding styles for my favourite hero button */
+#fav-hero-container div button{
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+}
+/* Adding styles for hover on my favourite hero button */
+#fav-hero-container div button:hover{
+    box-shadow: blueviolet 1px 1px 5px 1px;
+}
+
+div a{
+    font-size: 1rem;
+    text-decoration: none;
+    display: block;
+    width: 11.5rem;
+    margin: 0 auto;
+}
+/* Adding styles for Delete button : to remove favourite hero */
+.removeFav{
+    padding: 1px;
+    border: 2px solid black;
+}
+/* Adding styles for poing hover effect on Delete button : to remove favourite hero */
+.removeFav:hover{
+    cursor: pointer;
+}

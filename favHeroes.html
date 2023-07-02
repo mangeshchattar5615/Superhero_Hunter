@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/favHeroes.css">
+    <title>My favourite Heroes</title>
+
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h1>Photo Gallery</h1>
+    <div class="gallery">
+        <img src="image1.jpeg" alt="Image 1">
+        <img src="image2.jpeg" alt="Image 2">
+        <img src="image3.jpeg" alt="Image 3">
+        <img src="image4.jpeg" alt="Image 3">
+        <!-- Add more images here -->
+    </div>
+
+
+
+    <!-- ====home btn==== -->
+    <a href="./index.html">
+        <h2 style="text-decoration: none; background-color: orangered;padding: 10px; color:white;text-align: center;">Go
+            back to home</h2>
+    </a>
+    <!-- ====fav btn==== -->
+    <div id="fav-hero-container">
+    </div>
+
+    <script src="./js/favHeroes.js"></script>
+</body>
+
+</html>
